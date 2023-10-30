@@ -1,0 +1,40 @@
+/* Home.css */
+.contain {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  border-radius: 8px;
+}
+
+.homelogo img {
+  width: 100%;
+  max-width: 750px;
+  mix-blend-mode: multiply;
+  margin-top: 20px;
+}
+
+.title {
+  font-size: 45px;
+  font-weight: 800;
+  color: #333;
+  flex: 1;
+  margin-right: 50px;
+}
+
+.introduction {
+  text-align: left;
+  margin-left: 50px;
+}
+
+#heading {
+  font-weight: 600;
+  color: #613fe5;
+  font-size: 40px;
+  font-family: "Courier New", Courier, monospace;
+  margin-bottom: 10px;
+}
+
+#paragraph {
+  max-width: 600px;
+}

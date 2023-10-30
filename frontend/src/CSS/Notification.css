@@ -1,0 +1,86 @@
+/* CSS/Notification.css */
+
+/* Styles for the heading */
+#notification-heading {
+    font-size: 45px;
+    color: #613fe6;
+    margin-bottom: 20px;
+    margin-top: 4%;
+    text-align: center;
+    font-weight: 600;
+  }
+  
+  /* Styles for the table */
+  #notification-table {
+    width: 98%; /* Adjust the width as needed */
+    border-collapse: collapse;
+    margin: 0 auto; /* Center the table horizontally */
+    padding: 10px; /* Add padding to the table */
+  }
+  
+  #notification-table th,
+  #notification-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  #notification-table th {
+    background-color: #f0f0f0;
+  }
+  
+  /* Styles for the buttons */
+  #approve-btn {
+    background-color: #0fb800;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-top: 5px;
+    border-radius: 5px;
+    width: 100px;
+  }
+  
+  #decline-btn {
+    background-color: #d63031;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-top: 5px;
+    border-radius: 5px;
+    width: 100px;
+    margin-top: 10px;
+  }
+  
+  #approve-btn:hover {
+    background-color: #009614;
+  }
+  
+  #decline-btn:hover {
+    background-color: #af3427;
+  }
+  
+  #approve-btn:focus,
+  #decline-btn:focus {
+    outline: none;
+  }
+  
+  #history-btn {
+    display: flex;
+    margin-left: auto;
+    margin-right: 2%;
+    margin-bottom: 1%;
+    background-color: #613fe6;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  
+  #history-btn:hover {
+    background-color: #432c9c;
+  }

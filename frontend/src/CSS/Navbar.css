@@ -1,0 +1,37 @@
+#tabs {
+    border-bottom: 3px solid transparent; 
+    transition: border-color 0.3s;
+    font-weight: 600;
+}
+
+#tabs:hover {
+    border-bottom-color: #613fe6;
+}
+
+.nav-link {
+    padding-bottom: 3px;
+}
+
+.nav-item {
+    display: flex; 
+    align-items: center;
+}
+.loginbtn {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #613fe6;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+.loginbtn:hover {
+    background-color: #4a2ecb; 
+    transform: translateY(-1px); 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}

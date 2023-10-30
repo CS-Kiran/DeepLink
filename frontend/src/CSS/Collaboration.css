@@ -1,0 +1,93 @@
+#collaboration{
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2%;
+    margin-top: 1%;
+    color: #555;
+    font-weight: 800;
+}
+
+#collab-heading {
+    color: #613fe6;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}  
+
+#departmentcollab_name {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+
+#pid_input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+
+#subject_input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+
+#budget_input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+
+#duration_input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+
+#content_input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+#collab-submit {
+  background-color: #613fe5;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+#collab-submit:hover {
+  background-color: #4a2ecb;
+}

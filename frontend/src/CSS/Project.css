@@ -1,0 +1,190 @@
+#project-registration {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: #613fe6;
+  margin-bottom: 2%;
+  margin-top: 1%;
+}
+#project-registration h1 {
+    text-align: center;
+    font-weight: 800;
+}
+
+#project-title {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+#proj_form {
+  font-size: 16px;
+}
+
+#proj_name_label {
+  font-weight: 800;
+  display: block;
+  margin-bottom: 5px;
+}
+
+#name {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+#proj_description_label {
+  margin-bottom: 5px;
+}
+
+#pdescription {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  resize: vertical;
+}
+
+#dept_name_label {
+  font-weight: bold;
+}
+
+#dept_name {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+#proj_budget_label {
+  font-weight: bold;
+}
+
+#money {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+#proj_date_label,
+#proj_end_date_label {
+  font-weight: bold;
+}
+
+#start_date,
+#end_date {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+#proj_status_label {
+  font-weight: bold;
+}
+
+#status {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: #f5f5f5;
+  cursor: not-allowed;
+}
+
+#proj_location_label {
+  margin-bottom: 5px;
+}
+
+#plocation {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  resize: vertical;
+}
+
+#coordinates_label {
+  font-weight: bold;
+}
+
+#longitude,
+#latitude {
+  display: flex;
+  width: 48%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+#send,
+#clear {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+#send {
+  background-color: #613fe6;
+}
+
+#clear {
+  background-color: #6c757d;
+  margin-left: auto;
+}
+
+#send:hover {
+  background-color: #4a2ecb;
+}
+
+#clear:hover {
+  background-color: #484b4e;
+}
+
+#btn_wrapper {
+  text-align: right;
+}
+
+.required-color {
+  color: red;
+}
+
+#iframe-wrapper {
+  position: relative;
+  padding-top: 56.25%;
+  width: 100%;
+  margin-left: 2%;
+}
+
+#iframe-wrapper iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
