@@ -36,7 +36,7 @@ Make sure you have the following installed:
 
 ## Install Backend Dependencies:
 
-pip install -r requirements.txt
+pip install flask sqlite3
 
 ## Running the Application:
 
