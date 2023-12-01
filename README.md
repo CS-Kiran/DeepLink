@@ -36,16 +36,22 @@ Make sure you have the following installed:
 
 ## Install Backend Dependencies:
 
-pip install flask sqlite3
-
+   ```bash
+   pip install Flask
+   pip install Sqlite3
+   
+```
 ## Running the Application:
 
 1. Start the Backend:
-python app.py
+  ```bash
+   python app.py
+  ```
 
 2. Start the Frontend (in the frontend directory):
+```bash
 npm start
-
+```
 3. Access the application at http://localhost:3000.
 
 ## Usage
