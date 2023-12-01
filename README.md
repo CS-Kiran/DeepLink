@@ -1,5 +1,5 @@
 # Deeplink Project
-![Deeplink Project](deeplink_image.png)
+![Deeplink Project](deep_link.png)
 
 ## Overview
 
