@@ -32,27 +32,32 @@ Make sure you have the following installed:
    ```bash
    git clone https://github.com/your-username/deeplink.git
    cd deeplink
+## Usage
 
-##Usage
+### Department Users:
 
-###Department Users:
-Log in with your credentials.
-Collaborate on projects and track their progress.
+- Log in with your credentials.
+- Collaborate on projects and track their progress.
 
-###Citizens:
-Visit the public interface to view government projects.
-Access project details and monitor progress.
-Contributing
+### Citizens:
+
+- Visit the public interface to view government projects.
+- Access project details and monitor progress.
+
+## Contributing
+
 Contributions are welcome! Please follow these guidelines:
 
-##Fork the repository.
-Create a new branch: git checkout -b feature-name.
-Make your changes and commit them: git commit -m 'Add new feature'.
-Push to the branch: git push origin feature-name.
-Submit a pull request.
+1. Fork the repository.
+2. Create a new branch: `git checkout -b feature-name`.
+3. Make your changes and commit them: `git commit -m 'Add new feature'`.
+4. Push to the branch: `git push origin feature-name`.
+5. Submit a pull request.
 
-##License
+## License
+
 This project is licensed under the MIT License.
 
-##Acknowledgments
+## Acknowledgments
+
 Thanks to contributors who have contributed to this project.
