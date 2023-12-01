@@ -32,6 +32,24 @@ Make sure you have the following installed:
    ```bash
    git clone https://github.com/your-username/deeplink.git
    cd deeplink
+
+## Install Backend Dependencies:
+
+pip install -r requirements.txt
+OR
+cd frontend
+npm install
+
+## Running the Application:
+
+1. Start the Backend:
+python app.py
+
+2. Start the Frontend (in the frontend directory):
+npm start
+
+3. Access the application at http://localhost:3000.
+
 ## Usage
 
 ### Department Users:
