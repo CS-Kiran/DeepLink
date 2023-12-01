@@ -36,9 +36,6 @@ Make sure you have the following installed:
 ## Install Backend Dependencies:
 
 pip install -r requirements.txt
-OR
-cd frontend
-npm install
 
 ## Running the Application:
 
